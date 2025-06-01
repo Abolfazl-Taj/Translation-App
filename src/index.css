@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Inter";
+    src: url('./assets/Fonts/Inter-VariableFont_opsz\,wght.ttf');
+}
+
+body {
+    @apply bg-[#f5f5f5] text-gray-800 transition-colors duration-300;
+}
+
+body.dark {
+    @apply bg-zinc-800 text-gray-100;
+}
